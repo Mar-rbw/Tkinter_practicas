@@ -15,7 +15,6 @@ Si trabajas solo, el documentar un proyecto muy complejo,es excelente documentar
 
 ## Ejemplo
 <code>
-<pre>
 class Areas:
     """"Calcula el área de un cuadrado
     elevando al cuadrado el lado pasdado por parámetro"""
@@ -28,12 +27,11 @@ class Areas:
     """Muestrame la documentacion asociada a'area_cuadrado'"""
     print(areaCuadrado.__doc__)
 
-    """Suponiendo que no estan en una 
+    """Suponiendo que no estan en una Class
     """Nos ofrece una información más detalla, 
         nos dice ayuda en la función area_cuadrada inmodulo    principal  (main):
         * La definición de la función con sus parametrosyla        documentación asosiada"""
     help(area_cuadrado)
     """Nos ofrece lo mismo anterior aun sin pasar por __doc__"""
     help(areaTriangulo)
-</pre>
 </code>
