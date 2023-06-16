@@ -1,6 +1,6 @@
 # Documentar un programa
 __Fuente: https://www.youtube.com/watch?v=SJqANWdRG4I__
-hasta minuto: 7:27
+
 * ¿Qué es?
     * Incluir comentarios en clases, métodos, módulos, etc.
 * ¿Para qué?
