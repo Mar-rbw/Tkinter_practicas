@@ -14,7 +14,7 @@ Para explicar cada cosa.A la hora de trabajar en equipo. en aplicaciones muy com
 Si trabajas solo, el documentar un proyecto muy complejo,es excelente documentar esa apliación es posible que dentro de un tiempo(días, meses, incluso años) y no recuerdes nada de lo hecho. El tener una documentación de ese programa nos ayuda a recodar como funcionaba.
 
 ## Ejemplo
-<code>
+<pre>
 class Areas:
     """"Calcula el área de un cuadrado
     elevando al cuadrado el lado pasdado por parámetro"""
@@ -34,4 +34,4 @@ class Areas:
     help(area_cuadrado)
     """Nos ofrece lo mismo anterior aun sin pasar por __doc__"""
     help(areaTriangulo)
-</code>
+</pre>
