@@ -15,7 +15,7 @@ Si trabajas solo, el documentar un proyecto muy complejo,es excelente documentar
 
 ## Ejemplo
 <pre>
-
+from modulo import modulos
    
 class Areas:
    """Esta clase calcula las áreas de diferentes figuras geométicas""""
@@ -47,6 +47,8 @@ class Areas:
    """
    help(Areas)
 
+   """Nos ofrece ayuda sobre este módulo y nos da igualmente su documentación"""
    
+   help(modulos) 
    
 </pre>
