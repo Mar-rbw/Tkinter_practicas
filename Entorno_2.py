@@ -1,4 +1,5 @@
 from tkinter import *
+
 def miFuncion():
     print("Este mensaje es del boton")
 
@@ -19,5 +20,5 @@ COMMAND funciona como un AddEvent  """
 btn = Button(root, text="presionar", fg="red", bg="yellow",command=miFuncion)
 btn.pack()
 """ inicia el ciclo de mensajes, al momento de interactuar con tu aplicacion """
-mainloop()
+root.mainloop()
 
