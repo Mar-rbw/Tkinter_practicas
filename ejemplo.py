@@ -46,7 +46,7 @@ class App:
     def __init__(self, root):
         self.root = root
         self.root.title("Ejemplo de Tkinter con Base de Datos")
-        self.dao = ProductDAO('aws.connect.psdb.cloud', 'elcorreodeyuri', 'pscale_pw_FKbypWYo9fTgT1u92XD3adI6S5PXNVHAeOEDPlRpbF2', 'nombre_basedatos')
+        self.dao = ProductDAO()
         self.dao.connect()
 
         self.create_widgets()
