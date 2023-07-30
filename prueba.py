@@ -4,8 +4,9 @@ from tkinter import *
 import os
  
 # Designing window for registration
- 
+
 def register():
+    """ Esta funcion sirve para """
     global register_screen
     register_screen = Toplevel(main_screen)
     register_screen.title("Register")
@@ -159,4 +160,5 @@ def main_account_screen():
     main_screen.mainloop()
  
  
+help(register)
 main_account_screen()
